@@ -13,7 +13,7 @@ p {
 
 body {
 	padding: 20px 10px;
-	font-family: Helvetica;
+	font-family: Helvetica, Georgia, sans-serif;
 	max-width: 1600px;
 	margin: 5px 5px auto;
 	font-size: 1.5em
@@ -27,70 +27,45 @@ body {
 	color: green;
 }
 
-.title-1 {
-	background-color: yellow;
+.title-1, .title-2, .title-3 {
 	padding: 2px 2px;
 	margin: 10px 20px;
 	border-radius: 10px;
+}
+
+.title-1{
+	background-color: yellow;
 }
 
 .title-2 {
 	background-color: red;
-	padding: 2px 2px;
-	margin: 10px 20px;
-	border-radius: 10px;
 }
 
 .title-3 {
 	background-color: white;
-	padding: 2px 2px;
-	margin: 10px 20px;
-	border-radius: 10px;
 	color: black;
 }
 
-.one {
+.one, .two, .three {
 	background-color: black;
 	padding: 10px;
 	margin: 10px auto;
 	border-radius: 10px;
-	color: green;
+}
+
+.one {
+	color: green;	
 }
 
 .two {
-	background-color: black;
-	padding: 10px;
-	margin: 10px auto;
-	border-radius: 10px;
 	color: yellow;
 }
 
 .three {
-	background-color: black;
-	padding: 10px;
-	margin: 10px auto;
-	border-radius: 10px;
 	color: red;
-	
 }
 
-.one-1 {
-	background-color: white;
-	padding: 10px;
-	margin: 10px auto;
-	border-radius: 20px;
-	color: black;
-}
-
-.two-1 {
-	background-color: white;
-	padding: 10px;
-	margin: 10px auto;
-	border-radius: 20px;
-	color: black;
-}
-
-.three-1 {
+.one-1, .two-1, .three-1 {
 	background-color: white;
 	padding: 10px;
 	margin: 10px auto;
@@ -101,8 +76,3 @@ body {
 .bold {
 	font-weight: bolder;
 }
-
-
-
-
-
